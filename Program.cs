@@ -54,7 +54,7 @@ namespace guessing_game
                 else if (guess > secretNumber)
                 {
 
-                    Console.WriteLine($"Nope, Too high! Try again! You have {allowedTries - numberOfTries}  tries left.");
+                    Console.WriteLine($"Nope, too high! Try again! You have {allowedTries - numberOfTries}  tries left.");
                     guess = Convert.ToInt32(Console.ReadLine());
 
                 }
